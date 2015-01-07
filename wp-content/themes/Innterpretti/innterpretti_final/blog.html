@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Blog - Innterpretti</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="blog.css">
+	<link rel="stylesheet" href="cssmenu.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script>
+		function myCallback(i, width) {
+			document.documentElement.id = 'range_' + i;
+		}
+		var ADAPT_CONFIG = {
+			path: 'css/',
+			dynamic: true,
+			callback: myCallback,
+			range: [
+		'0px to 980px  = mobile.css',
+		'980px  to 1280px = 960.css',
+	    '1200px = 1200.css'
+
+	  ]
+		};
+	</script>
+
+	<script src="js/adapt.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+	<div id="topo">
+		<div class="container_12">
+			<div class="logo grid_3">
+				<img src="images/logo.png">
+			</div>
+			<div class="menu grid_9">
+				<ul>
+					<a href="index.html">
+						<li>
+							Início
+						</li>
+					</a>
+	
+
+					<a href="#">
+						<li class="botao_menu">
+							Entrar
+						</li>
+					</a>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="grid_9" id='cssmenu'>
+			<ul>
+				<li class='active'><a href="index.html"><span>Início</span></a>
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="faixa_azul">
+		<div class="container_12">
+			<div class="grid_6">
+				<div class="imagem_nave">
+					<img src="images/imagem_nave.png">
+				</div>
+			</div>
+			<div class="grid_6">
+				<div class="conteudo_busca">
+					<h1>Anotações</h1>
+					<h6>Adquira novos conhecimentos ou revise aqueles já assimilados.</h6>
+					<div class="clear"></div>
+				</div>
+				<div class="grid_6 form-blog">
+						<div class="digite_busca grid_4 alpha">
+							<input type="text" placeholder="Procure por palavra-chave" id="procurar_input">
+						</div>
+						<div class="grid_2 omega">
+							<input type="submit" value="Procurar" id="botao_email">
+						</div>
+						<div class="clear"></div>
+				</div>
+			</div>
+					
+		</div>
+	</div>
+	<div class="clear"></div>
+
+
+	<div class="container_12">
+		<div class="grid_7">
+			<div class="conteudo_blog">
+
+
+				<div class="materia">
+					<div class="grid_3 titulo_destacados">
+						<div class="ponto_azul grid_1 alpha">
+							<img src="images/ponto_azul.jpg">
+						</div>
+						<div class="titulo_destaque grid_2 omega">
+							<h4>DESTAQUE</h4>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+
+					<div class="titulo_materia">
+						<h4>05 Sugestões para você cuidar bem do solo agrícola que sustenta a sua atividade agropecuária.</h4>
+					</div>
+
+					<div class="grid_3 imagem_materia alpha">
+						<img src="images/imagem_destaque.jpg">
+					</div>
+					<div class="grid_4 conteudo_mateira omega">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti interpreta os resultados para você ou para seus clientes</p>
+						<br>
+						<p><b>Você escolhe o laboratório de sua preferência </b>para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+
+					</div>
+
+					<div class="clear"></div>
+					<div class="resto_materia">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+					</div>
+					<div class="saiba_mais">
+						<a href="#">
+							<img src="images/saiba_mais.png">
+						</a>
+					</div>
+
+				</div>
+				<div class="separacao"></div>
+
+				<div class="materia">
+					<div class="grid_3 titulo_destacados">
+						<div class="ponto_azul grid_1 alpha">
+							<img src="images/ponto_azul.jpg">
+						</div>
+						<div class="titulo_destaque grid_2 omega">
+							<h4>MAIS ANOTAÇÕES</h4>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="titulo_materia">
+						<h4>05 Sugestões para você cuidar bem do solo agrícola que sustenta a sua atividade agropecuária.</h4>
+					</div>
+
+					<div class="grid_3 imagem_materia alpha">
+						<img src="images/imagem_destaque_1.jpg">
+					</div>
+					<div class="grid_4 conteudo_mateira omega">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti interpreta os resultados para você ou para seus clientes</p>
+						<br>
+						<p><b>Você escolhe o laboratório de sua preferência </b>para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+
+					</div>
+					<div class="clear"></div>
+					<div class="resto_materia">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+					</div>
+					<div class="saiba_mais">
+						<a href="#">
+							<img src="images/saiba_mais.png">
+						</a>
+					</div>
+
+				</div>
+
+				<div class="separacao"></div>
+
+				<div class="materia">
+
+					<div class="titulo_materia">
+						<h4>05 Sugestões para você cuidar bem do solo agrícola que sustenta a sua atividade agropecuária.</h4>
+					</div>
+
+					<div class="grid_3 imagem_materia alpha">
+						<img src="images/imagem_destaque_2.jpg">
+					</div>
+					<div class="grid_4 conteudo_mateira omega">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti interpreta os resultados para você ou para seus clientes</p>
+						<p><b>Você escolhe o laboratório de sua preferência </b>para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+
+					</div>
+					<div class="clear"></div>
+
+					<div class="resto_materia">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+					</div>
+					<div class="saiba_mais">
+						<a href="#">
+							<img src="images/saiba_mais.png">
+						</a>
+					</div>
+
+				</div>
+
+				<div class="separacao"></div>
+
+				<div class="materia">
+
+					<div class="titulo_materia">
+						<h4>05 Sugestões para você cuidar bem do solo agrícola que sustenta a sua atividade agropecuária.</h4>
+					</div>
+
+					<div class="grid_3 imagem_materia alpha">
+						<img src="images/imagem_destaque_3.jpg">
+					</div>
+					<div class="grid_4 conteudo_mateira omega">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti interpreta os resultados para você ou para seus clientes</p>
+						<p><b>Você escolhe o laboratório de sua preferência </b>para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+
+					</div>
+
+					<div class="clear"></div>
+
+					<div class="resto_materia">
+						<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti.</p>
+					</div>
+					<div class="saiba_mais">
+						<a href="#">
+							<img src="images/saiba_mais.png">
+						</a>
+					</div>
+
+				</div>
+
+				<div class="separacao"></div>
+
+			</div>
+
+		</div>
+		<div class="grid_4 push_1">
+			<div class="midias_sociais">
+					<div class="midia grid_2 alpha">
+						<div class="direita">
+							<img src="images/icone_facebook.jpg">
+						</div>
+					</div>
+
+					<div class="midia grid_2 omega">
+						<img src="images/icone_google.jpg">
+					</div>
+					<div class="midia grid_2 alpha">
+						<div class="direita">
+
+							<img src="images/icone_youtube.jpg">
+						</div>
+					</div>
+					<div class="midia grid_2 omega">
+						<img src="images/icone_twitter.jpg">
+					</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container_12" id="numeracao_pagina">
+		<div class="grid_7">
+			<img src="images/numeracao_pagina.png">
+		</div>
+	</div>
+
+	<div class="container_12" id="footer">
+		<div class="faixa_footer"></div>
+
+		<div class="copyright">
+			<p>© 2014 Innterpretti</p>
+		</div>
+	</div>
+
+</body>
+
+</html>

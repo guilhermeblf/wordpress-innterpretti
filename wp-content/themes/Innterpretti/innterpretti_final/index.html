@@ -1,0 +1,759 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<title>Innterpretti</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="cssmenu.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/utility.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+
+
+
+	<script>
+		function myCallback(i, width) {
+			document.documentElement.id = 'range_' + i;
+		}
+		var ADAPT_CONFIG = {
+			path: 'css/',
+			dynamic: true,
+			callback: myCallback,
+			range: [
+		'0px to 980px  = mobile.css',
+		'980px  to 1280px = 960.css',
+	    '1200px = 1200.css'
+
+	  ]
+		};
+	</script>
+
+	<script src="js/adapt.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+
+
+
+</head>
+
+<body>
+	<div id="topo">
+		<div class="container_12">
+			<div class="logo grid_3">
+				<img src="images/logo.png">
+			</div>
+			<div class="menu grid_9">
+				<ul>
+					<a href="#banner">
+						<li>
+							Início
+						</li>
+					</a>
+					<a href="#sugestao">
+						<li>
+							Sugestão
+						</li>
+					</a>
+					<a href="#desempenho">
+						<li>
+							Desempenho
+						</li>
+					</a>
+					<a href="blog.html">
+						<li>
+							Anotações
+						</li>
+					</a>
+					<a href="#orcamento">
+						<li>
+							Orçamento
+						</li>
+					</a>
+					<a href="#preco">
+						<li>
+							Preço
+						</li>
+					</a>
+					<a href="#">
+						<li class="botao_menu">
+							Entrar
+						</li>
+					</a>
+				</ul>
+
+			</div>
+
+			<div class="grid_9" id='cssmenu'>
+				<ul>
+					<li class='active'><a href="#banner"><span>Início</span></a>
+					</li>
+					<li class='active'><a href="#sugestao"><span>Sugestão</span></a>
+					</li>
+					<li class='active'><a href="#desempenho"><span>Desempenho</span></a>
+					</li>
+					<li class='active'><a href="#anotacoes"><span>Anotações</span></a>
+					</li>
+					<li class='active'><a href="#orcamento"><span>Orçamento</span></a>
+					</li>
+					<li class='active'><a href="#preco"><span>Preço</span></a>
+					</li>
+					<li class='active'><a href="blog.html"><span>Blog</span></a>
+					</li>
+					<li class='active'><a href="#"><span>Entrar</span></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="banner">
+		<div class="container_12">
+			<div class="conteudo_banner">
+				<div class="grid_6 left_fade animated fadeInLeft">
+					<h1>POTENCIALIZE RESULTADOS</h1>
+					<h5>Aumente as chances de acertar</h5>
+					<div class="texto_banner">
+						<p>Solicite e receba a <b>Interpretação<br> da Análise de Solo Agrícola</b>
+							<br>ultilizando a facilidade do e-mail</p>
+					</div>
+					<div class="digite_email grid_4 alpha">
+						<input type="text" placeholder="Digite o e-mail">
+					</div>
+
+					<div class="botao_email grid_2 omega">
+						<input type="submit" value="Solicitar
+interpretação" id="botao_email">
+
+
+					</div>
+
+					<div class="clear"></div>
+					<div class="observacao_banner">
+						<p>Digite o e-mail no qual você deseja receber a interpretação e clique em “Solicitar Interpretação”. Você vai receber uma mensagem de boas vindas e o acesso imediato ao sistema que permite solicitar a interpretação</p>
+					</div>
+
+
+				</div>
+				<div class="grid_6 right_fade animated fadeInRight">
+					<div class="imagem_banner">
+						<img src="images/imagem_banner.png">
+
+						<div class="legenda">
+							<p>*Siga até o final da página e peça os detalhes.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="conteudo">
+		<div class="container_12">
+			<h1 class="left_fade animated fadeInLeft">Saia na Frente</h1>
+			<h5 class="left_fade animated fadeInLeft">Tenha total liberdade para escolher e resolva tudo do seu jeito, com agilidade,
+				<br> tranquilidade e segurança.</h5>
+
+			<div class="topicos grid_6 left_fade animated fadeInLeft">
+				<div class="icone_topico grid_1 alpha">
+					<img src="images/icone1.png">
+				</div>
+				<div class="informacao_topico grid_5 omega">
+					<p><b>Você escolhe o laboratório de sua preferência</b> para fazer a análise quimica do solo agrícola e um Consultor Innterpretti interpreta os resultados para você ou para seus clientes</p>
+				</div>
+				<div class="clear"></div>
+
+				<div class="icone_topico grid_1 alpha">
+					<img src="images/icone2.png">
+				</div>
+				<div class="informacao_topico grid_5 omega">
+					<p><b>Você escolhe como quer pagar</b> e pode decidir, com segurança, entre as opções de depósito, boleto ou cartão de crédito.</p>
+
+				</div>
+				<div class="clear"></div>
+
+				<div class="icone_topico grid_1 alpha">
+					<img src="images/icone3.png">
+				</div>
+				<div class="informacao_topico grid_5 omega">
+					<p><b>Você escolhe o melhor momento</b> e e pode solicitar e receber a interpretação da análise de solo,<b> onde você estiver</b>, nos mais diversos lugares e a qualquer hora, basta ter acesso à internet. Solicite agora, se desejar.</p>
+				</div>
+			</div>
+			<div class="topicos grid_6">
+					<img src="images/player.jpg">
+
+			</div>
+
+		</div>
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+
+			<h1 class="left_fade animated fadeInLeft" id="sugestao">Faça da melhor maneira</h1>
+			<h5 class="left_fade animated fadeInLeft">Veja 3 condições importantes para você progredir rápido.</h5>
+			<div class="topicos">
+				<div class="grid_6 right_fade animated fadeInRight">
+					<div class="imagem_conteudo">
+						<img src="images/imagem_computador.png " alt="imagem_grafico">
+					</div>
+				</div>
+				<div class="grid_6 left_fade animated fadeInLeft">
+					<div class="icone_topico grid_1 alpha ">
+						<img src="images/icone_numero1.png">
+					</div>
+					<div class="informacao_topico grid_5 omega">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam</p>
+					</div>
+					<div class="clear"></div>
+					<div class="icone_topico grid_1 alpha">
+						<img src="images/icone_numero2.png">
+					</div>
+					<div class="informacao_topico grid_5 omega">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam</p>
+					</div>
+					<div class="clear"></div>
+					<div class="icone_topico grid_1 alpha">
+						<img src="images/icone_numero3.png">
+					</div>
+					<div class="informacao_topico grid_5 omega">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam</p>
+					</div>
+					<div class="clear"></div>
+					<div class="conteudo_topico grid_6 alpha omega" id="pos_melhor">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam. Suspendisse dui lectus, tristique rhoncus malesuada ac, scelerisque ut nibh</p>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam. Suspendisse dui lectus, tristique rhoncus malesuada ac, scelerisque ut nibh</p>
+						<br>
+						
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+			<h1 class="left_fade animated fadeInLeft">Faça a escolha certa</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+
+			<div class="grid_4 alpha right_fade animated fadeInRight">
+				<div class="escolha">
+					<div class="zoom_photo">
+						<div class="view view-first">
+							<div class="imagem_escolha">
+								<img src="images/escolha1.jpg">
+							</div>
+							<div class="mask">
+								<span class="zoom"></span>
+							</div>
+						</div>
+					</div>
+					<div class="conteudo_escolha">
+						<h3>Lorem</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula</p>
+						<div class="botao_pdf">
+							<a href="#">
+								<img src="images/botao_pdf.png">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid_4 right_fade animated fadeInRight">
+				<div class="escolha">
+					<div class="view view-first">
+						<div class="imagem_escolha">
+							<img src="images/escolha2.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_escolha">
+						<h3>Lorem</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula</p>
+						<div class="botao_pdf">
+							<a href="#">
+								<img src="images/botao_pdf.png">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="grid_4 omega">
+				<div class="escolha right_fade animated fadeInRight">
+					<div class="view view-first">
+						<div class="imagem_escolha">
+							<img src="images/escolha3.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_escolha">
+						<h3>Lorem</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula</p>
+						<div class="botao_pdf">
+							<a href="#">
+								<img src="images/botao_pdf.png">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+
+			<h1 class="left_fade animated fadeInLeft" id="desempenho">Ganhe tempo e economia</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+			<div class="grid_6">
+				<div class="topicos left_fade animated fadeInLeft">
+					<div class="conteudo_topico">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesq ue molestie ut </p>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesq ue molestie ut </p>
+						<br>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesq ue molestie ut molestie</p>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="grid_6 topicos">
+				<img src="images/player.jpg">
+
+			</div>
+		</div>
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+			<h1 class="left_fade animated fadeInLeft">Agilize o orçamento</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+
+			<div class="agilize right_fade animated fadeInRight">
+				<img src="images/amostra.jpg">
+			</div>
+		</div>
+
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+
+			<h1 class="left_fade animated fadeInLeft" id="anotacoes">Tenha um relatório diferente</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+			</h5>
+			<div class="topicos grid_6">
+
+
+				<div class="conteudo_topico left_fade animated fadeInLeft">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem suscipit in. Mauris pharetra dictum purus, at convallis nisi. Proin quis felis vulputate, accumsan turpis sed, gravida eros. Maecenas in commodo ex. Morbi fringilla, nulla ut bibendum commodo, enim lacus ultrices magna, at blandit libero nisi a purus. Donec imperdiet finibus orci, eget sodales lectus venenatis sed. Pellentesque.</p>
+				</div>
+			</div>
+			<div class="topicos grid_6 right_fade animated fadeInRight">
+				<div class="relatorio">
+					<img src="images/relatorio.jpg">
+				</div>
+			</div>
+		</div>
+
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+			<h1 class="left_fade animated fadeInLeft">Busque um direcionamento</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+
+			<div class="topicos grid_7">
+				<div class="conteudo_topico left_fade animated fadeInLeft">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem suscipit in. Mauris pharetra dictum purus, at convallis nisi. Proin quis felis vulputate, accumsan turpis sed, gravida eros. Maecenas in commodo ex. Morbi fringilla, nulla ut bibendum commodo, enim lacus ultrices magna, at blandit libero nisi a purus. Donec imperdiet finibus</p>
+				</div>
+			</div>
+
+			<div class="topicos grid_5 right_fade animated fadeInRight">
+				<div class="imagem_diferencial">
+					<img src="images/imagem_direcionamento.jpg">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+			<h1 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+
+			<div class="topicos grid_7">
+				<div class="comparativo left_fade animated fadeInLeft">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem suscipit in. Mauris pharetra dictum</p>
+				</div>
+
+			</div>
+			<div class="topicos grid_5 right_fade animated fadeInRight">
+				<div class="imagem_comparativa">
+					<img src="images/imagem_comparativa.jpg">
+				</div>
+			</div>
+
+		</div>
+		<div class="observacao">
+			<div class="container_12">
+				<div class="anuncio">
+					<img src="images/imagem_anuncio.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="container_12">
+			<h1 class="left_fade animated fadeInLeft">Lorem ipsm dolor sit amet</h1>
+
+			<div class="topicos grid_5">
+				<div class="imagem_diferencial_1 left_fade animated fadeInLeft">
+					<img src="images/imagem_diferencial.png">
+				</div>
+			</div>
+			<div class="topicos grid_7">
+				<div class="conteudo_topico right_fade animated fadeInRight">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container_12 left_fade animated fadeInLeft">
+			<div class="faixa_divisor"></div>
+			<h1>Fuja dos pré-conceitos</h1>
+			<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h5>
+			<div class="pre_conceito grid_6 push_3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem suscipit.</p>
+
+			</div>
+		</div>
+
+		<div class="container_12">
+			<div class="faixa_divisor"></div>
+			<h1 class="left_fade animated fadeInLeft">Só relembrando</h1>
+
+			<div class="topicos grid_8">
+				<div class="conteudo_topico left_fade animated fadeInLeft">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo</p>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus</p>
+					<div class="botao_check">
+						<a href="#">
+							<img src="images/botao_check.png">
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="topicos grid_4 right_fade animated fadeInRight">
+				<div class="imagem_relembrando">
+					<img src="images/imagem_relembrando.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="aprimoramento">
+			<div class="container_12">
+
+				<div class="titulo_aprimoramento">
+					<h1 class="left_fade animated fadeInLeft">Encontre o aprimoramento</h1>
+					<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+				</div>
+				<div class="bloco_aprimoramento grid_3 alpha left_fade animated fadeInLeft">
+					<div class="view view-first">
+						<div class="imagem_aprimoramento">
+							<img src="images/aprimoramento_1.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_aprimoramento">
+						<h3>Lorem:</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin</p>
+
+					</div>
+
+				</div>
+
+				<div class="bloco_aprimoramento grid_3 left_fade animated fadeInLeft">
+					<div class="view view-first">
+						<div class="imagem_aprimoramento">
+							<img src="images/aprimoramento_2.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_aprimoramento">
+						<h3>Lorem:</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin</p>
+
+					</div>
+
+
+				</div>
+
+				<div class="bloco_aprimoramento grid_3 right_fade animated fadeInRight">
+					<div class="view view-first">
+						<div class="imagem_aprimoramento">
+							<img src="images/aprimoramento_3.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_aprimoramento">
+						<h3>Lorem:</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin</p>
+
+					</div>
+
+
+				</div>
+
+				<div class="bloco_aprimoramento grid_3 omega right_fade animated fadeInRight">
+					<div class="view view-first">
+						<div class="imagem_aprimoramento">
+							<img src="images/aprimoramento_4.jpg">
+						</div>
+						<div class="mask">
+							<span class="zoom"></span>
+						</div>
+					</div>
+					<div class="conteudo_aprimoramento">
+						<h3>Lorem:</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container_12">
+			<div class="perfil">
+				<h1 class="left_fade animated fadeInLeft">Perfil e Segmento</h1>
+				<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				</h5>
+
+				<div class="conteudo_perfil grid_6 push_3 left_fade animated fadeInLeft">
+					<ul>
+						<li>Lorem ipsum dolor sit</li>
+						<li>amet, consectetur</li>
+						<li>adipiscing elit. Sed quis</li>
+						<li>massa imperdiet,</li>
+						<li>placerat metus id,</li>
+						<li>aliquam urna. Proin</li>
+						<li>eget ex sodales,</li>
+						<li>efficitur odio</li>
+						<li>bibendum, cursus</li>
+
+					</ul>
+				</div>
+				<div class="conteudo_perfil grid_6 right_fade animated fadeInRight">
+					<div class="imagem_perfil">
+						<img src="images/perfil.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="faixa_azul">
+			<div class="container_12">
+				<div class="primeiro_passo grid_5">
+					<img src="images/imagem_primeiro_passo.png">
+				</div>
+
+				<div class="primeiro_passo grid_7">
+					<h1>Dê o primeiro passo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at consectetur sem suscipit in. Mauris pharetra dictum purus, at convallis nisi. Proin quis felis vulputate, accumsan turpis sed, gravida eros. Maecenas in commodo ex. Morbi fringilla, nulla ut bibendum commodo, enim lacus ultrices magna, at blandit libero nisi a purus. Donec imperdiet finibus orci, eget sodales lectus venenatis sed.</p>
+
+					<div class="digite_email grid_5 alpha">
+						<input type="text" placeholder="Digite o e-mail">
+					</div>
+
+					<div class="botao_email grid_2 omega">
+						<input type="submit" value="Solicitar
+interpretação" id="botao_email">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="faixa_cinza">
+			<div class="container_12 left_fade animated fadeInLeft" id="orcamento">
+			<h1 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet</h1>
+			<h5 class="left_fade animated fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+				<div class="grid_4 alpha">
+					<div class="escolha">
+						<div class="view view-first">
+							<div class="imagem_escolha">
+								<img src="images/escolha4.jpg">
+							</div>
+							<div class="mask">
+								<span class="zoom"></span>
+							</div>
+						</div>
+						<div class="conteudo_bloco_branco">
+							<h3>Lorem</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam. Suspendisse dui lectus, tristique rhoncus malesuada</p>
+							<div class="botao_ver">
+								<a href="#">
+									<img src="images/botao_ver.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="grid_4">
+					<div class="escolha">
+						<div class="view view-first">
+							<div class="imagem_escolha">
+								<img src="images/escolha5.jpg">
+							</div>
+							<div class="mask">
+								<span class="zoom"></span>
+							</div>
+						</div>
+						<div class="conteudo_bloco_branco">
+							<h3>Lorem</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam. Suspendisse dui lectus, tristique rhoncus malesuada</p>
+							<div class="botao_ver">
+								<a href="#">
+									<img src="images/botao_ver.png">
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="grid_4 omega">
+					<div class="escolha">
+						<div class="view view-first">
+							<div class="imagem_escolha">
+								<img src="images/escolha6.jpg">
+							</div>
+							<div class="mask">
+								<span class="zoom"></span>
+							</div>
+						</div>
+						<div class="conteudo_bloco_branco">
+							<h3>Lorem</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis vehicula nibh, id condimentum quam. Suspendisse dui lectus, tristique rhoncus malesuada</p>
+							<div class="botao_ver">
+								<a href="#">
+									<img src="images/botao_ver.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="preco" id="preco">
+			<div class="container_12">
+				<div class="preco_conteudo grid_6 alpha ">
+					<div class="imagem_preco left_fade animated fadeInLeft">
+						<img src="images/imagem_preco.png">
+					</div>
+				</div>
+				<div class="preco_conteudo grid_6 omega right_fade animated fadeInRight">
+					<div class="digite_email ">
+						<input type="text" placeholder="Digite o e-mail" class="emails">
+					</div>
+					<div class="botao_solicitar">
+						<input type="submit" class="botao_solicitar">
+					</div>
+					<div class="conteudo_solicitar">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit amet enim pellentesque molestie ut et nisi. Donec pharetra justo orci, at</p>
+
+						<div class="termos grid_3 alpha">
+							<a href="#"><h4>TERMO DE SERVIÇO</h4></a>
+						</div>
+						<div class="termos grid_3 omega">
+							<a href="#"><h4>POLITICA DE PRIVACIDADE</h4></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container_12">
+				<div class="grid_6 left_fade animated fadeInLeft">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+					<div class="titulo_footer">
+						<h5>Lorem ipsum</h5>
+					</div>
+
+
+					<div class="conteudo_footer">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis massa imperdiet, placerat metus id, aliquam urna. Proin eget ex sodales, efficitur odio bibendum, cursus justo. Pellentesque id tortor sit</p>
+					</div>
+				</div>
+
+				<div class="grid_6 right_fade animated fadeInRight">
+					<div class="fragmento_footer grid_2 alpha">
+						<h5>Lorem ipsum </h5>
+						<p>Lorem ipsum</p>
+					</div>
+					<div class="fragmento_footer grid_2">
+						<h5>Lorem ipsum </h5>
+						<p>Lorem ipsum</p>
+					</div>
+					<div class="fragmento_footer grid_2 omega">
+						<h5>Lorem ipsum </h5>
+						<p>Lorem ipsum</p>
+					</div>
+				</div>
+			</div>
+			<div class="container_12">
+				<div class="faixa_divisor"></div>
+
+				<div class="desenvolvido left_fade animated fadeInLeft">
+					<p>Lorem ipsumLorem ipsumLorem ipsumLorem ipsu</p>
+				</div>
+
+				<a href="#banner">
+					<div id="botao_topo">
+						<img src="images/botao_topo.png">
+					</div>
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Inicio dos Scripts -->
+
+	<script>
+		$('a[href*=#]').on('click', function (event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop: $(this.hash).offset().top
+			}, 3000);
+		});
+	</script>
+	<script src="js/jquery.scrollTo-min.js"></script>
+
+</body>
+
+</html>
